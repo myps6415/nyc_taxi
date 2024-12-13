@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "nyc-taxi"
+version = "0.1.0"
+description = ""
+authors = ["HSIAO-YU"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+apache-airflow = "^2.10.3"
+apache-airflow-providers-postgres = "^5.14.0"
+apache-airflow-providers-http = "^4.13.3"
+sqlalchemy = ">=1.4.36,<2.0"
+psycopg2-binary = "^2.9.10"
+pandas = "^2.2.3"
+numpy = "^2.2.0"
+dbt-core = "^1.9.0"
+dbt-postgres = "^1.9.0"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+pytz = "^2024.2"
+python-dateutil = "^2.9.0.post0"
+black = "^24.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

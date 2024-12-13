@@ -1,0 +1,11 @@
+{
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.analysis.extraPaths": [
+        "/Users/johntung/Documents/work/craw_video/src/cleflexlake"
+    ]
+}
